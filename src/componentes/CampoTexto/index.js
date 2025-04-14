@@ -13,6 +13,7 @@ const CampoTexto = (props) => {
         onChange={aoDigitado}
         required={props.obrigatorio}
         placeholder={props.placeholder}
+        value={props.valor}
       />
     </div>
   );
